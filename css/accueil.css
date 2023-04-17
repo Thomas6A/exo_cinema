@@ -75,8 +75,8 @@ main ul {
     }
   }
 main img:hover {
-  transition: all 1s;
-  transform: scale(1.4);
+  transition: all 0.5s;
+  transform: scale(1.2);
 }
 
 .films{
