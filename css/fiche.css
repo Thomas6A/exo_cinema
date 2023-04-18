@@ -58,15 +58,19 @@ main {
 main h2 {
     margin-bottom: 0;
 }
-
 #affiche {
-    float: inline-start;
-    width: 15%;
+    width: 20%;
     margin-right: 1%;
 }
 
+#affiche img{
+    width: 100%;
+}
+#desc{
+    width: 80%;
+}
 #fiche {
-    margin-bottom: 9%;
+    display: flex;
 }
 
 #container {
@@ -78,7 +82,7 @@ main h2 {
 }
 
 #casting {
-    margin-bottom: 0.2%;
+    margin-bottom: 1.5%;
 }
 
 #acteur {
