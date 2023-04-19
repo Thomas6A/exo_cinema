@@ -78,7 +78,6 @@ body {
   #name{
     width: 84%;
     background-color: #f7f7f7;
-    margin-top: 4%;
   }
   
   #mail{
@@ -95,7 +94,6 @@ body {
   textarea{
     margin-top: 3%;
     width: 97.5%;
-    padding-bottom: 30%;
     background-color: #f7f7f7;
     margin-bottom: 3%;
   }
@@ -174,7 +172,7 @@ footer img{
   }
 
   #nav_mobile ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
     font-size: xx-large;
     text-align: center;
@@ -192,4 +190,25 @@ footer img{
   footer {
     display: none;
   }
+}
+
+@media screen and (max-width: 1180px) {
+  main{
+    margin-top: 15%;
+  }
+
+  main ul{
+    position: unset;
+    animation: unset;
+  }
+
+  header{
+    justify-content: space-around;
+  }
+
+  .films{
+    margin-left: 70%;
+  }
+
+  
 }
