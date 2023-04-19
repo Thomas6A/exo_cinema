@@ -116,6 +116,26 @@ body {
 footer img{
     width: 30px;
 }
+@media screen and (max-width: 1180px) {
+  main{
+    margin-top: 15%;
+  }
+
+  main ul{
+    position: unset;
+    animation: unset;
+  }
+
+  header{
+    justify-content: space-around;
+  }
+
+  .films{
+    margin-left: 70%;
+  }
+
+  
+}
 @media screen and (max-width: 480px) {
   header {
     display: none;
@@ -192,23 +212,3 @@ footer img{
   }
 }
 
-@media screen and (max-width: 1180px) {
-  main{
-    margin-top: 15%;
-  }
-
-  main ul{
-    position: unset;
-    animation: unset;
-  }
-
-  header{
-    justify-content: space-around;
-  }
-
-  .films{
-    margin-left: 70%;
-  }
-
-  
-}
